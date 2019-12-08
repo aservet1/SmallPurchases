@@ -1,0 +1,32 @@
+options:
+	add an entry -- 'vendapp add X'
+		append X to the fie list with the date
+	reset -- 'vendapp reset'
+		ask for confirmation
+		clear file, get new set date
+	view set date -- 'vendapp setdate'
+		extract first line of file
+	display -- 'vendapp display'
+		print the first line and then the other ones
+		in a readable format
+	get total -- 'vendapp total'
+		read file, turn entries into ints, sum it up
+
+file format:
+
+Amount	Date
+x	xxxx-xx-xx
+x	xxxx-xx-xx
+x	xxxx-xx-xx
+x	xxxx-xx-xx
+x	xxxx-xx-xx
+x	xxxx-xx-xx
+x	xxxx-xx-xx
+x	xxxx-xx-xx
+x	xxxx-xx-xx
+x	xxxx-xx-xx
+x	xxxx-xx-xx
+x	xxxx-xx-xx
+x	xxxx-xx-xx
+x	xxxx-xx-xx
+
