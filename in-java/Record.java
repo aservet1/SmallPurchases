@@ -1,39 +1,8 @@
-import java.time.LocalDateTime;
-
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
-
-class Entry
-{
-	String dateTime;
-	double price;
-
-	public Entry(){}
-
-	public Entry(double _price)
-	{
-		String[] rawDateTime = LocalDateTime.now().toString().split("T");
-		String date = rawDateTime[0];
-		String time = rawDateTime[1].substring(0,rawDateTime[1].indexOf("."));
-
-		dateTime = date+" "+time;
-		price = _price;
-	}
-
-	public String toString()
-	{
-		return dateTime+"\t"+price;
-	}
-
-	public static void main(String[] args)
-	{
-		System.out.println(new Entry(2.50));
-	}
-}
-
 
 //@TODO -- research Java/SQL interface (see some of your old TC3 files)
 class Record // eventaully turn this to wrapping an SQL database not txt file
