@@ -2,9 +2,17 @@ Things we want the app to do (in order of priority). Add anything to the list at
 
 Implement one database table
 Add entries
+
 Delete entries -- all of these are gonna be queries I guess
 	undo last one
 	scroll thru list of date/price/type and select
 	within a date range (specify purchase type, or don't)
-Make a graph of activity -- they enter paramters, we query the data and make a graph
+
+Get total spending (for all, for certain category, for multiple categories)
+	(-oo, oo)
+	(-oo, x]
+	[x, oo)
+	[x, y]
+
+Make a graph of spending activity -- they enter paramters, we query the data and make a graph
 
